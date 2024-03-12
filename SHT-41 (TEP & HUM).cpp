@@ -6,7 +6,7 @@ SGP40 sgp40;
 void setup() {
   Serial.begin(9600);
   Wire.begin(); // Initialize I2C bus
-  sgp40.begin( 0x44); // Initialize SGP40 sensor
+  sgp40.begin(0x44); // Initialize SGP40 sensor
 }
 
 void loop() {
